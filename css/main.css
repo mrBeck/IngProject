@@ -121,22 +121,40 @@ textarea {
 
 .backgrnd{
     
-    background-color: blue;
-    height: 800px;
+    background-color: #90cbc1;
+    height: 1800px;
 
 }
 
 .rax{
-
-    background-color: orange;
-    height: 500px;
-    width: 700px;
+    
+    background-image: url("../img/fbknd.jpg");
     margin: auto;
-
-
+    position: center;
+    height: 560px;
+    width: 960px;
 
 }
 
+.titlu{
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    color: #f36f21;
+    top: 230px;
+    left: 450px;
+    width: 510px;
+    height: 180px;
+}
+
+.subtitlu{
+    position:relative;
+    font-size: 20px;
+    color: white;
+    top:180px;
+    left:530px;
+}
 
 
 
