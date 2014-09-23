@@ -105,6 +105,8 @@ textarea {
     padding: 12px;
     width: 100%;
     position: fixed;
+    cursor: pointer;
+    z-index: 1000;
 
 }
 
@@ -123,6 +125,7 @@ textarea {
     
     background-color: #90cbc1;
     height: 560px;
+    margin:auto;
 }
 
 .rax{
@@ -141,18 +144,18 @@ textarea {
     text-transform: uppercase;
     position: relative;
     color: #f36f21;
-    top: 230px;
-    left: 450px;
+    padding-top: 230px;
+    padding-left: 450px;
     width: 510px;
-    height: 180px;
 }
 
 .subtitlu{
     position:relative;
     font-size: 20px;
     color: white;
-    top:180px;
-    left:530px;
+    padding-left: 530px;
+    padding-top: 25px;
+
 }
 
 .white-container{
@@ -173,7 +176,6 @@ textarea {
 }
 
 .video-holder{
-    cursor: pointer;
     background-image: url("../img/thumbnail.jpg");
     position : relative;
     height:160px;
@@ -182,6 +184,7 @@ textarea {
     float:left;
     background-color: red;
     margin: 15px;
+
     
 
 }
@@ -190,11 +193,78 @@ textarea {
     font-size: 20px;
     position:relative;
     top: 85px;
+
 }
 
+.orangecontainer{
+
+    height: 716px;
+    background-color: #f68428;
+    margin: auto;
+}
+.titlu-trei{
+    text-transform: uppercase;
+    font-weight: bold;
+    color :white;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-size: 40px;
+}
+.inaltatori{
+    font-size: 30px;
+    color: #fff;
+    position: relative;
+    padding-left: 150px;
+    padding-top: 100px;
+    text-align:center;
 
 
 
+}
+
+.andreiplesu{
+
+    background-image: url("../img/andreiplesu.jpg");
+    height: 260px;
+    width: 260px;
+    border-radius: 50%;
+    border : 12px solid white;
+    position: relative;
+    top: 150px;
+    left: 150px;
+    box-shadow: 0px 0px 30px 15px #000 inset;
+    display: inline-block;
+    float:left;
+}
+
+.mirceatoma{
+
+    background-image: url("../img/mirceatoma.jpg");
+    height: 260px;
+    width: 260px;
+    display: inline-block;
+    border-radius: 50%;
+    border : 12px solid white;
+    position: relative;
+    top: 150px;
+    left: 250px;
+    box-shadow: 0px 0px 30px 15px #000 inset;
+}
+
+.adriansarbu{
+background-image: url("../img/adriansarbu.jpg");
+    height: 260px;
+    width: 260px;
+    display: inline-block;
+    border-radius: 50%;
+    border : 12px solid white;
+    position: relative;
+    top: 150px;
+    left: 350px;
+    box-shadow: 0px 0px 30px 15px #000 inset;
+
+}
 
 
 
