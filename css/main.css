@@ -158,20 +158,28 @@ textarea {
 }
 
 .white-container{
-    background-image: url("../img/secondbknd.jpg");
-    height: 364px;
+    height: 380px;
     width: 960px;
     margin: auto;
-    background-color: red;
+    background-color: white;
+    position: relative;
 }
 
-.titlu-doi{
+.titlu-doi {
     margin:auto;
     position: relative;
     font-size:28px;
     color:orange;
-    top:50px;
-    left: 270px;
+    padding-top:30px;
+    padding-left: 170px;
+    width: 500px;
+    top:40px;
+}
+
+.arrow {
+    left: 850px;
+    top: 0px;
+    position: absolute;
 }
 
 .video-holder{
@@ -179,34 +187,36 @@ textarea {
     position : relative;
     height:160px;
     width:241px;
-    top:75px;
+    margin-bottom: 30px;
     float:left;
     background-color: red;
     margin: 15px;
-
-    
-
+    top:60px;
 }
 
 .text-visuri{
     font-size: 20px;
     position:relative;
-    top: 85px;
-
+    padding-top: 80px;
+    display:inline;
+    top: 70px;
 }
 
 .orangecontainer{
 
-    height: 1260px;
+    height: auto;
     background-color: #f68428;
     margin: auto;
     text-align: center;
     
 }
+
+
 .biocontainer{
     width:960px;
     margin: auto;
 }
+
 .titlu-trei{
     text-transform: uppercase;
     font-weight: bold;
@@ -216,6 +226,7 @@ textarea {
     padding-top: 50px;
     font-size: 40px;
 }
+
 .inaltatori{
     font-size: 30px;
     color: #fff;
@@ -225,7 +236,6 @@ textarea {
     width: 960px;
     padding-bottom: 80px;
 }
-
 
 .speakercontainer{
 
@@ -266,7 +276,6 @@ textarea {
 
     clear:both;
 }
-
     
 
 .andreiplesu{
@@ -277,9 +286,25 @@ textarea {
 }
 .adriansarbu{
     background-image: url("../img/adriansarbu.jpg");
-    
 }
 
+
+.workshops{
+    height: 45px;
+    font-size: 36px;
+    color: white;
+    text-transform: uppercase;
+    background-color: #8fcbc1;
+    clear:both;
+    width: auto:;
+}
+
+.downarrow {
+    margin: auto;
+    width:50px;
+    height: 27px;
+    position: absolute;
+}
 
 
 
