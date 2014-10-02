@@ -204,7 +204,7 @@ textarea {
 
 .orangecontainer{
 
-    height: auto;
+    height:970px;
     background-color: #f68428;
     margin: auto;
     text-align: center;
@@ -265,6 +265,14 @@ textarea {
     clear: both;
 }
 
+.name2{
+    font-family: Oswald;
+    color: black;
+    text-transform: uppercase;
+    font-size: 26px;
+    display: inline;
+    clear: both;
+}
 .textprofil{
 
     font-family: Oswald;
@@ -290,21 +298,208 @@ textarea {
 
 
 .workshops{
+    margin-top: 40px;
+    padding:5px;
     height: 45px;
     font-size: 36px;
     color: white;
     text-transform: uppercase;
     background-color: #8fcbc1;
     clear:both;
-    width: auto:;
+    width: auto
 }
 
 .downarrow {
-    margin: auto;
-    width:50px;
-    height: 27px;
-    position: absolute;
+    position: relative;
+
 }
+
+.white-container2{
+
+height: 700px;
+background-color:white;
+display: block;
+
+}
+
+.indemn {
+    background-color: ;
+    margin:auto;
+    text-align: left;
+    font-size: 18px;
+    color: black;
+    width: 950px;
+}
+
+.bec{
+    background-color: red;
+    position: relative;
+    float:left;
+    display: inline;
+    height:75px;
+    width:58px;
+}
+
+.industrii{
+    float:left;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 28px;
+    text-transform: uppercase;    
+}
+
+.liniuta{
+    margin-left: 40px;
+    display:block;
+    margin-top:37px;
+    text-transform: uppercase;
+    float:left;
+    position:relative;
+    background-color: black;
+    height: 1px;
+    width: 540px;
+}
+
+.industriiprofile{
+    margin: auto;
+    background-color:red;
+    display:inline;
+    margin-left: 15px;
+    width : 960px;
+}
+
+.madalinaa{
+    background-image: url("../img/madalinaa.png");
+}
+.adriano{
+    background-image: url("../img/adriano.png");
+}
+.tudorg{
+    background-image: url("../img/tudorg.png");
+}
+
+.creativespeak{
+
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    border : 12px solid white;
+    display: inline-block;
+    position: relative;
+}
+
+.recipient{
+    background-color:blue;
+    height:300px;
+    width:300px;
+    display:inline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
