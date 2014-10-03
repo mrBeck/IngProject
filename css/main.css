@@ -109,7 +109,7 @@ textarea {
 
 }
 
-.a {
+.ab {
 
     display: inline;
     font-size: 18px;
@@ -253,7 +253,6 @@ textarea {
     display: inline-block;
     position: relative;
     margin: auto;
-    display: inline-block;
 }
 
 .name{
@@ -265,14 +264,7 @@ textarea {
     clear: both;
 }
 
-.name2{
-    font-family: Oswald;
-    color: black;
-    text-transform: uppercase;
-    font-size: 26px;
-    display: inline;
-    clear: both;
-}
+
 .textprofil{
 
     font-family: Oswald;
@@ -315,15 +307,14 @@ textarea {
 }
 
 .white-container2{
-
-height: 700px;
+margin:auto;
+height: auto;
 background-color:white;
 display: block;
-
 }
 
 .indemn {
-    background-color: ;
+    background-color:;
     margin:auto;
     text-align: left;
     font-size: 18px;
@@ -331,25 +322,27 @@ display: block;
     width: 950px;
 }
 
+.elemente{
+    width:960px;
+    margin:auto;
+    background-color:grey;
+}
+
 .bec{
-    background-color: red;
     position: relative;
     float:left;
-    display: inline;
-    height:75px;
-    width:58px;
 }
 
 .industrii{
     float:left;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 10px;
     font-size: 28px;
     text-transform: uppercase;    
 }
 
 .liniuta{
-    margin-left: 40px;
+    margin-left: 20px;
     display:block;
     margin-top:37px;
     text-transform: uppercase;
@@ -357,16 +350,21 @@ display: block;
     position:relative;
     background-color: black;
     height: 1px;
-    width: 540px;
+    width: 580px;
 }
 
-.industriiprofile{
-    margin: auto;
-    background-color:red;
-    display:inline;
-    margin-left: 15px;
-    width : 960px;
+.liniuta2{
+    margin-left: 20px;
+    display:block;
+    margin-top:37px;
+    text-transform: uppercase;
+    float:left;
+    position:relative;
+    background-color: black;
+    height: 1px;
+    width: 800px;
 }
+
 
 .madalinaa{
     background-image: url("../img/madalinaa.png");
@@ -378,25 +376,84 @@ display: block;
     background-image: url("../img/tudorg.png");
 }
 
-.creativespeak{
-
-    height: 220px;
-    width: 220px;
-    border-radius: 50%;
-    border : 12px solid white;
-    display: inline-block;
-    position: relative;
+.industriiprofile{
+    background-color:;
+    margin: auto;
+    padding-bottom: 100px;
+    width : 960px;
+    height: auto;
 }
 
 .recipient{
-    background-color:blue;
-    height:300px;
-    width:300px;
-    display:inline;
+    margin-top:10px;
+    background-color:;
+    display: inline-block;
+    position:relative;
+    width: 297px;
+    height: auto;
+    padding: 10px; 
 }
 
+.name2{
+    padding-bottom: 10px;
+    position:relative;
+    font-family: Oswald;
+    color: black;
+    text-transform: uppercase;
+    font-size: 26px;
+}
 
+.creativespeak{
+    margin: auto;
+    height: 225px;
+    width: 225px;
+    display: block;
+    position: relative;
+    border-radius: 50%;
+}
 
+.profiltext {
+    margin: auto;
+    position:relative;
+    background-color:;
+    padding-bottom: 10px;
+    height: auto;
+    width: 220px;
+    text-align:left;
+}
+
+.workclass{
+    background-color:;
+    color: #f37022;
+    width: 250px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom:10px;
+    padding-left:40px;
+    text-align: left;
+}
+
+.inscriere{
+    cursor:pointer;
+    margin-top: 45px;
+    font-size: 18px;
+    color:white;
+    margin:auto;
+    width: 250px;
+    background-color:#f37022;
+    display:inline;
+    padding:10px;
+}
+
+.rarrow{
+    margin-left:10px;
+    }
+
+    .eco{
+        position:relative;
+        float:left;
+        margin-top: 20px;
+    }
 
 
 
