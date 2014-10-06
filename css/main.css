@@ -365,7 +365,8 @@ display: block;
 }
 
 .linie{
-    margin-top: 30px;
+    margin-bottom:60px;
+    margin-top: 60px;
     width:auto;
     height:1px;
     background-color: black;
@@ -506,7 +507,7 @@ display: block;
     margin-right: 50px;
     margin-left:50px;
     padding: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .workshop{
@@ -537,11 +538,26 @@ display: block;
 .fullname{
     font-weight: bold;
     color:orange;
-
 }
 
+.cupa{
+    width: 20px;
+    height: 25px;
+}
+.tagline{
+    background-color:#f7f7f7;
+}
+.fbicon{
+    padding-right: 30px;
+}
 
+.footer{
+    width:960px;
+    position:relative;
+    margin: auto;
+    position:center;
 
+}
 
 
 
