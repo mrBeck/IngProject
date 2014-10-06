@@ -307,7 +307,7 @@ textarea {
 }
 
 .white-container2{
-margin:auto;
+
 height: auto;
 background-color:white;
 display: block;
@@ -323,9 +323,10 @@ display: block;
 }
 
 .elemente{
+    padding-top:40px;
     width:960px;
     margin:auto;
-    background-color:grey;
+    background-color:white;
 }
 
 .bec{
@@ -343,38 +344,31 @@ display: block;
 
 .liniuta{
     margin-left: 20px;
-    display:block;
+    display:inline;
     margin-top:37px;
-    text-transform: uppercase;
-    float:left;
+    float: left;
     position:relative;
     background-color: black;
     height: 1px;
+}
+
+.liniuta1{
     width: 580px;
 }
 
 .liniuta2{
-    margin-left: 20px;
-    display:block;
-    margin-top:37px;
-    text-transform: uppercase;
-    float:left;
-    position:relative;
-    background-color: black;
-    height: 1px;
     width: 800px;
 }
 
 .liniuta3{
-    margin-left: 20px;
-    display:block;
-    margin-top:37px;
-    text-transform: uppercase;
-    float:left;
-    position:relative;
-    background-color: black;
-    height: 1px;
     width: 718px;
+}
+
+.linie{
+    margin-top: 30px;
+    width:auto;
+    height:1px;
+    background-color: black;
 }
 
 
@@ -392,7 +386,6 @@ display: block;
 .industriiprofile{
     background-color:;
     margin: auto;
-    padding-bottom: 100px;
     width : 960px;
     height: auto;
 }
@@ -458,6 +451,19 @@ display: block;
     padding:10px;
 }
 
+.inscriere2{
+    cursor:pointer;
+    font-size: 25px;
+    color:white;
+    margin:auto;
+    width: 280px;
+    background-color:#f37022;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:4px;
+    padding-bottom:4px;
+}
+
 .rarrow{
     margin-left:10px;
     }
@@ -474,14 +480,65 @@ display: block;
         margin-top: 14px;
 }
 
+.ptitle{
+    padding-top: 30px;
+    font-size: 38px;
+    text-transform: uppercase;
+    font-weight: bold
+    color: black;
+}
 
+.text-container{
+    height:300px;
+    width:960px;
+    background-color:#efefef;
+}
+.program-title{
+    padding: 28px;
+    font-size: 20px;
+    font-weight: bold;
+    position:relative;
+    width:auto;
+    color: black;
+}
+.program{
+    font-size: 16px;
+    margin-right: 50px;
+    margin-left:50px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
 
+.workshop{
+    margin-top:20px;
+    display:inline;
+    position:relative;
+    padding-left: 0px;
+    text-align: left;
+    width: 480px;
+    background-color:;
+    float:left;
+}
+.ore{
+    font-size: 20px;
+    margin-left:10px;
+    font-weight: normal;
+    color:grey;
+}
+.py{
+    display: inline;
+    margin-left: 10px;
+}
 
+.wtype{
+    font-weight: bold;
+}
 
+.fullname{
+    font-weight: bold;
+    color:orange;
 
-
-
-
+}
 
 
 
