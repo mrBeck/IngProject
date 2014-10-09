@@ -163,6 +163,7 @@ textarea {
     margin: auto;
     background-color: white;
     position: relative;
+    padding-bottom:50px;
 }
 
 .titlu-doi {
@@ -559,9 +560,30 @@ display: block;
     cursor: pointer;
 }
 
+.orangediv{
+    
+    height: 50px;
+    background-color: white;
+    width: auto!important;
+    display: block;
+}
+.orangediv2{
+    
+    height: 172px;
+    background-color: #F37022;
+    width: auto!important;
+    display: block;
+}
 
+.footer{
 
+    background-color:white;
+    height: 83px;
+}
 
+.elemente2{
+    padding-top: 400px;
+    }
 
 
 
